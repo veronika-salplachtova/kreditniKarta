@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.logo {
+  width: 10rem;
+  height: 10rem;
+  background-image: url(./img/rocket.svg);
+  background-size: contain;
+}
+
+input {
+  max-width: 50px;
+  margin-right: 10px;
+  display: inline-flex;
+}
